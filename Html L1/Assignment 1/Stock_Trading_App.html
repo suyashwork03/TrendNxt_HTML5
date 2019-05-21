@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<table border="1">
+  <tr>
+    <th>TICKER</th>
+    <th>PRICE</th> 
+  </tr>
+  <tr>
+    <td>MICROSOFT</td>
+    <td>298.45</td>
+  </tr>
+  <tr>
+    <td>GOOGLE</td>
+    <td>949.95</td>
+  </tr>
+  <tr>
+    <td>APPLE</td>
+    <td>2713.70</td>
+  </tr>
+  <tr>
+    <td>AMAZON</td>
+    <td>485.85</td>
+  </tr>
+</table>
+
+
+
+<br>
+<h1>STOCK TRADING</h1>
+<br>
+<table border="1">
+<form action="/action_page.php">
+  <tr>
+  <th>Ticker:</th>
+   <td><select name="Tickers" required>
+    <option value="MICROSOFT">MICROSOFT</option>
+    <option value="GOOGLE">GOOGLE</option>
+    <option value="APPLE">APPLE</option>
+    <option value="AMAZON">AMAZON"</option>
+  </select>
+  </td>
+  </tr>
+  <tr>
+  <th>Quantity:</th>
+  <td><input type="number" name="Quantity" min="10" max="100" step="10" required></td>
+  <tr>
+  <td><input type="submit" value="Submit"></td>
+  </tr>
+</form> 
+</Table>
+</body>
+</html>

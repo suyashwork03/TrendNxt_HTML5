@@ -1,0 +1,61 @@
+<html>
+
+<head>
+<style>
+h1,h2,div{
+	text-align: center;
+}
+
+input{
+	margin-left: 2cm;
+	margin-top: 0.5cm;
+}
+
+body{
+    background-image:url('logo1.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Xena Events</h1>
+<h2>Presents</h2>
+<h1><i>Hot Air Balloon Riding</i></h1>
+
+<div>
+<p><b>Note:</b> Xena events is organising a hot air bolloon event. To participate please register below.</p>
+
+</div>
+
+<div>
+<form>
+<label>Name</label>
+<input type="text" maxlength="20" required>
+<br>
+<label>Age</label>
+<input type="number" min="18" required>
+<br>
+<label>Email ID</label>
+<input type="email" required>
+<br>
+<label>City</label>
+<input type="text" list="Cities" name="city" required>
+<datalist id="Cities">
+		  <option>Rajkot</option>
+          <option>Vizag</option>
+          <option>Bangalore</option>
+          <option>Ranchi</option>
+</datalist>
+<br>
+<input type="Submit">
+
+</form>
+</div>
+</body>
+
+</html>
